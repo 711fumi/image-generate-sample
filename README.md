@@ -4,12 +4,16 @@ Sample of generating image by Ruby
 ---
 
 ## Getting Started
-Install gem
+### Install gem
 ```
 $ gem install gdk3
+$ gem install atk
 ```
 (confirmed with gdk3-3.3.2)
 
+### Install font
+Noto Sans CJK JP  
+https://www.google.com/get/noto/#sans-jpan
 
 ## Generate Image
 ```
