@@ -5,7 +5,7 @@ add_image = ARGV[1]
 
 # FIXME: Gdk::Pixbuf is deprecated. But can't generate by GdkPixbuf::pixbuf. Why?
 
-# pixbuf = GdkPixbuf::Pixbuf.new(file: 'test.png', width: 320, height: 180)
+# pixbuf = GdkPixbuf::Pixbuf.new(file: add_image, width: 320, height: 180)
 pixbuf = Gdk::Pixbuf.new(file: add_image, width: 320, height: 180)
 
 surface = Cairo::ImageSurface.from_png(base_image)
