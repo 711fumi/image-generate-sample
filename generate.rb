@@ -24,6 +24,9 @@ context.show_text('カラーテキスト')
 
 context.translate(40, 300)
 context.set_source_pixbuf(pixbuf)
+context.clip do
+  context.circle(160, 90, 90)
+end
 context.paint
 
 surface.write_to_png('img/generated.png')
